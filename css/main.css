@@ -2,6 +2,7 @@
 
 html, body {
     font-family: "DM Sans", sans-serif;
+    background: linear-gradient(90deg, #C800FF 0%, #5F31E0 100%);
 }
 
 /*Navigation*/
@@ -316,10 +317,10 @@ html, body {
         width: 500px;
     }
     .M-he-text1{
-        font-size: 14px;
+        font-size: 20px;
     }
     .M-he-text2{
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
@@ -390,12 +391,29 @@ html, body {
     .M-he-list{
         display: none;
     }
+    .M-he-text1{
+        font-size: 8px;
+    }
+    .M-he-text2{
+        font-size: 9px;
+    }
+    .M-header-end{
+        gap: 0;
+        margin-left: 100px;
+    }
+
+    .M-he-Images{
+        margin-left: 80px;
+    }
     .M-he-Image1{
-        display: none;
+        width: 400px;
+        height: 200px;
     }
     .M-he-Image2{
-        display: none;
+        width: 400px;
+        height: 200px;
     }
+
 
 }
 
