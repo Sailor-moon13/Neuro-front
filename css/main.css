@@ -1,0 +1,401 @@
+@import "./reset.css";
+
+html, body {
+    font-family: "DM Sans", sans-serif;
+}
+
+/*Navigation*/
+
+.Main-nav{
+    background: #232423;
+    color: #fff;
+    padding: 20px 0;
+    min-width: 1900px;
+}
+
+.M-nav-container{
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.M-nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.M-nav-logo{
+    height: 59px;
+    top: 11px;
+    left: 25px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 58.8px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: linear-gradient(90deg, #663FBF, #EEA4F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.M-nav-list{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.M-nav-list2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.M-nav-NeuroforResearch{
+    height: 32px;
+    top: 24px;
+    left: 1422px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 32.2px;
+    letter-spacing: -0.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.M-nav-sepBar{
+    border-radius: 5px;
+    width: 6px;
+    height: 54px;
+    background: #5c5c5c;
+}
+
+.M-nav-logIN{
+    height: 32px;
+    top: 28px;
+    left: 1709px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 32.2px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.M-nav-signUp{
+    top: 28px;
+    left: 1816px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 32.2px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    white-space: nowrap;
+}
+
+/*Header*/
+
+.Main-header{
+    background: linear-gradient(90deg, #C800FF 0%, #5F31E0 100%);
+    min-width: 1900px;
+}
+
+.M-header-container{
+    color: white;
+    justify-content: space-between;
+
+
+}
+
+.M-header-row{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.M-he-Logo\&Download{
+    justify-items: left;
+    padding-left: 150px;
+
+    h1{
+
+        top: 253px;
+        left: 126px;
+        font-size: 150px;
+        font-weight: 700;
+        line-height: 210px;
+        letter-spacing: -0.5px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    h2{
+        margin-top: -40px;
+
+        top: 428px;
+        left: 66px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+.M-he-download{
+    margin-top: 28px;
+    width: 361px;
+    height: 72px;
+    top: 526px;
+    left: 241px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #6753FF 0%, #5344C9 100%);
+    white-space: nowrap;
+
+}
+
+.M-he-winIcn{
+    display: flex;
+    gap: 3px;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.M-he-rec1{
+    width: 17px;
+    height: 17px;
+    top: 544px;
+    left: 262px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 4px #00000040;
+}
+.M-he-rec2{
+    margin-top: 3px;
+    width: 17px;
+    height: 17px;
+    top: 544px;
+    left: 281px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 4px #00000040;
+}
+.M-he-rec3{
+    width: 17px;
+    height: 17px;
+    top: 563px;
+    left: 262px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 4px #00000040;
+}
+.M-he-rec4{
+    margin-top: 3px;
+    width: 17px;
+    height: 17px;
+    top: 563px;
+    left: 281px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 4px #00000040;
+}
+
+.M-he-Download-Button{
+    padding-left: 50px;
+    margin-top: -46px;
+    top: 534px;
+    left: 311px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.M-he-list{
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+
+    top: 616px;
+    left: 241px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23.8px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 75px
+}
+
+.M-he-Images{
+
+}
+
+.M-he-Image1{
+    width: 700px;
+    margin-top: 100px;
+    height: 373.82px;
+    top: 197px;
+    left: 816px;
+    border-radius: 64px;
+
+}
+.M-he-Image2{
+    width: 700px;
+    margin-top: 259px;
+    margin-left: -365px;
+    height: 372.78px;
+    top: 356px;
+    left: 1154px;
+    border-radius: 64px;
+}
+
+.M-header-end{
+    margin-top: 100px;
+    display: flex;
+}
+
+.M-he-text1{
+    padding-left: 40px;
+    white-space: nowrap;
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}
+.M-he-text2{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+@media(max-width:1200px){
+    .Main-nav{
+        min-width: 0;
+    }
+    .Main-header{
+        min-width: 0;
+    }
+    .M-header-row{
+        justify-content: center;
+        gap: 0;
+    }
+    .M-he-Images{
+        margin-top: -80px;
+    }
+    .M-he-Image1{
+        width: 500px;
+    }
+    .M-he-Image2{
+        width: 500px;
+    }
+    .M-he-text1{
+        font-size: 14px;
+    }
+    .M-he-text2{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:700px){
+    .M-nav-container{
+        margin-top: -30px;
+    }
+    .M-nav-row{
+        gap: 0;
+    }
+
+    /*FONT*/
+
+    /*NAVIGATION*/
+
+    .M-nav-logo{
+        font-size: 21px;
+        width: 70px;
+    }
+    .M-nav-list{
+        font-size: 14px;
+    }
+    .M-nav-NeuroforResearch{
+        font-size: 14px;
+    }
+    .M-nav-sepBar{
+        width: 3px;
+    }
+    .M-nav-signUp{
+        font-size: 14px;
+    }
+    .M-nav-logIN{
+        font-size: 14px;
+    }
+
+    /*HEADER*/
+
+    .M-he-Logo\&Download{
+        h1{
+            font-size: 75px;
+        }
+        h2{
+            margin-left: 30px;
+            margin-top: -80px;
+            font-size: 25px;
+
+        }
+    }
+    .M-header-container{
+        margin-left: -100px;
+    }
+    .M-he-download{
+        width: 180.5px;
+        height: 36px;
+        margin-top: -10px;
+        padding-bottom: 60px;
+    }
+    .M-he-winIcn{
+        display: none;
+    }
+
+    .M-he-Download-Button{
+        font-size: 20px;
+        padding: 0;
+        margin-top: 0;
+
+    }
+    .M-he-list{
+        display: none;
+    }
+    .M-he-Image1{
+        display: none;
+    }
+    .M-he-Image2{
+        display: none;
+    }
+
+}
+
