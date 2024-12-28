@@ -403,15 +403,21 @@ html, body {
     }
 
     .M-he-Images{
-        margin-left: 80px;
+        margin-left: 100px;
+        display: block;
+        margin-top: 40px;
     }
     .M-he-Image1{
-        width: 400px;
+        margin: 0;
+        width: 300px;
         height: 200px;
     }
     .M-he-Image2{
-        width: 400px;
+        margin: 0;
+        width: 300px;
         height: 200px;
+        margin-left: 80px;
+        margin-top: -80px;
     }
 
 
